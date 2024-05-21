@@ -1,0 +1,32 @@
+.search-results__wrapper{
+   max-width: 1200px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 30 0px;
+   margin-top: 30px;
+   .product-item{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      h2{
+         font-size: 30px;
+   
+      }
+      p{
+         color: gray;
+         margin: 20ox 0px;
+      }
+      strong{
+         color: blue;
+         font-size: 18px;
+      }
+      img{
+         margin-right: 30px;
+         height: 250px;
+         
+      }
+   }
+  
+}

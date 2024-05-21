@@ -1,0 +1,41 @@
+@import "reset";
+
+
+$header-default-height: 72px;
+$main-dark-color: #002f34;
+
+@import "header";
+
+.container{
+width: 100%;
+max-width: 1200px; 
+margin:0 auto;
+}
+
+.link{
+   border-radius: 5px;
+   font-family: sans-serif;
+   text-decoration: none;
+   padding: 1rem 2rem;
+
+ &--light{
+   
+   background-color: #fff;
+   color: black;
+  
+   
+
+ }
+
+ &--dark{
+
+   background-color: black;
+   color: #fff;
+   
+
+ }
+}
+
+.active-lang{
+  color: #23E5DB;
+}
